@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booked</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <p class="pill">🐛 Caterpillar reading tracker</p>
+        <h1>Booked</h1>
+        <p class="tagline">
+          Inching closer to your reading goals, one leafy little chapter at a time.
+        </p>
+      </div>
+
+      <div class="caterpillar-card">
+        <div class="caterpillar">
+          <span>●</span><span>●</span><span>●</span><span>●</span><span>●</span>
+        </div>
+        <strong>chapter muncher</strong>
+      </div>
+    </section>
+
+    <section class="goal-panel">
+      <h2>Reading Goal Crawl</h2>
+      <p id="goalText">Inching toward your yearly goal...</p>
+      <div class="crawl-track">
+        <div id="crawlFill" class="crawl-fill"></div>
+        <div id="crawlBug" class="crawl-bug">🐛</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <form id="bookForm" class="panel">
+        <h2>Add a Book Leaf</h2>
+
+        <label for="title">Book Title</label>
+        <input id="title" placeholder="Example: The Secret Garden" required />
+
+        <label for="author">Author</label>
+        <input id="author" placeholder="Example: Frances Hodgson Burnett" required />
+
+        <label for="rating">Leaf Rating</label>
+        <select id="rating">
+          <option value="5">5/5 leaves</option>
+          <option value="4">4/5 leaves</option>
+          <option value="3">3/5 leaves</option>
+          <option value="2">2/5 leaves</option>
+          <option value="1">1/5 leaves</option>
+        </select>
+
+        <label for="month">Month Finished</label>
+        <select id="month"></select>
+
+        <button type="submit">Munch This Book</button>
+      </form>
+
+      <section class="panel">
+        <h2>Reading Results Garden</h2>
+
+        <div class="stats">
+          <div>
+            <span id="totalBooks">0</span>
+            <small>books nibbled</small>
+          </div>
+          <div>
+            <span id="averageRating">0.0</span>
+            <small>average leaf rating</small>
+          </div>
+        </div>
+
+        <div id="chart" class="chart"></div>
+      </section>
+    </section>
+
+    <section class="grid">
+      <section class="panel">
+        <h2>Your Book Garden</h2>
+        <div id="shelf" class="shelf"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Fresh Leaves to Read Next</h2>
+        <p class="muted">The recommendation caterpillar is sniffing the bookshelf...</p>
+        <div id="recommendations" class="recommendations"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
