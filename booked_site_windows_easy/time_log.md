@@ -37,14 +37,16 @@ The expected minimum amount of time each Sprint for each category is as follows:
 | 5/4      |  11:00   | TP     | Learn how 2 use GIT for team proj on my own|     60      | 1 hour for TP    |
 | 5/7      |  12:45   | MTG    |   Github how to class lesson / stand up    |     90      | 2 hours for MTG  |
 | 5/7      |  1:30    | TP     |     Layout & goals for group / GIT         |     45      | 45 min for TP    |
-| 5/7      |   4-6    | IM     |          Started project with AI           |    120      | 2 hours for IM   |*plan 
-| 5/8      |   2-4    | IM     |          Stretch the project to be cooler  |    120      | 2 hours for IM   |*plan 
-| 5/9      |   2-4    | IM     |                 Fixing bugs                |    120      | 2 hours for IM   |*plan 
-| 5/9      |   4-5    | TP     |  re-learn wireframe's & plan colors        |     60      | 1 hour for TP    |*plan 
+| 5/7      |   4-6    | IM     |          Started project with AI           |    120      | 2 hours for IM   |
+| 5/8      |   2-4    | IM     |          Stretch the project to be cooler  |    120      | 2 hours for IM   |
+| 5/8      |   6-8    | IM     |                 Fixing bugs                |    120      | 2 hours for IM   |
+| 5/8      |   12-1   | TP     |  re-learn wireframe's & plan colors        |     60      | 1 hour for TP    |
 |          |          |        |                                            |             |                  |
 
 
 _Note: Add more rows as needed._
+
+//
 
 ## Sprint Totals
 

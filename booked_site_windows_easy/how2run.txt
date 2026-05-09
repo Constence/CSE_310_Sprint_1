@@ -1,0 +1,58 @@
+BOOKED WEBSITE SETUP STEPS (WINDOWS + MSYS2)
+
+1. Download and install MSYS2
+   https://www.msys2.org/
+
+2. Open the terminal called:
+   MSYS2 UCRT64
+
+3. Install g++ compiler:
+   pacman -S mingw-w64-ucrt-x86_64-gcc
+
+4. Open VS Code and open the project folder:
+   booked_site_windows_easy
+
+5. In the MSYS2 UCRT64 terminal, go to the backend folder:
+   cd "/c/Users/const/OneDrive/Desktop/CSE 310/CSE_310_Sprint_1/booked_site_windows_easy/backend"
+
+6. Compile the backend:
+   g++ -std=c++17 main.cpp -o booked_server.exe -lws2_32
+
+7. Run the backend:
+   ./booked_server.exe
+
+8. If successful, it should say:
+   Booked backend is running at http://localhost:8080
+
+9. Keep that terminal open.
+
+10. Open:
+    frontend/index.html
+
+11. Either:
+
+    * double click index.html
+      OR
+    * right click and use "Open with Live Server"
+
+12. The website should now work:
+
+    * add books
+    * save books
+    * show graph
+    * show recommendations
+
+13. Saved book data is stored in:
+    backend/data/books.tsv
+
+IMPORTANT:
+
+* Use the GREEN MSYS2 UCRT64 terminal for compiling/running
+* Do NOT use the black CMD terminal for g++
+* If backend is closed, the website cannot save/load books
+
+Compile command again if needed:
+g++ -std=c++17 main.cpp -o booked_server.exe -lws2_32
+
+Run command again if needed:
+./booked_server.exe
